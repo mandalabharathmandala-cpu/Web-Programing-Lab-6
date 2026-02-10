@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hindustan Aeronautics Limited | HAL India</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-plane-departure"></i>
+                <span class="logo-text">HAL</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="operations.html" class="nav-link">Operations</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Glassmorphism -->
+    <section class="hero" id="hero">
+        <div class="hero-video-bg">
+            <img src="https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=1920&q=80" alt="Fighter Aircraft" class="hero-bg-image">
+            <div class="video-overlay"></div>
+            <!-- Animated background pattern -->
+            <div class="hero-pattern"></div>
+        </div>
+        
+        <div class="container hero-content">
+            <div class="hero-glass-card" data-aos="fade-up">
+                <div class="hero-badge">Est. 1940</div>
+                <h1 class="hero-title">
+                    <span class="title-line">Pioneering</span>
+                    <span class="title-line gradient-text">Aerospace Excellence</span>
+                </h1>
+                <p class="hero-subtitle">Designing, manufacturing, and innovating defense solutions for India's skies since 1940</p>
+                <div class="hero-buttons">
+                    <a href="products.html" class="btn btn-primary">
+                        Explore Products
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="about.html" class="btn btn-secondary">
+                        Our Legacy
+                        <i class="fas fa-history"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Floating stats -->
+            <div class="hero-stats">
+                <div class="stat-card glass" data-aos="fade-right" data-aos-delay="200">
+                    <div class="stat-icon"><i class="fas fa-building"></i></div>
+                    <div class="stat-info">
+                        <div class="stat-number" data-target="84">0</div>
+                        <div class="stat-label">Years of Excellence</div>
+                    </div>
+                </div>
+                <div class="stat-card glass" data-aos="fade-right" data-aos-delay="400">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <div class="stat-info">
+                        <div class="stat-number" data-target="24457">0</div>
+                        <div class="stat-label">Skilled Employees</div>
+                    </div>
+                </div>
+                <div class="stat-card glass" data-aos="fade-right" data-aos-delay="600">
+                    <div class="stat-icon"><i class="fas fa-chart-line"></i></div>
+                    <div class="stat-info">
+                        <div class="stat-number">₹<span data-target="33542">0</span></div>
+                        <div class="stat-label">Cr Revenue (2025)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <p>Scroll to explore</p>
+        </div>
+    </section>
+
+    <!-- Quick Overview Section -->
+    <section class="overview" id="overview">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Who We Are</span>
+                <h2 class="section-title">India's Aerospace Pioneer</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="overview-grid">
+                <div class="overview-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Maharatna Status</h3>
+                    <p>Awarded Maharatna status in 2024, granting enhanced operational and financial autonomy</p>
+                </div>
+
+                <div class="overview-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>21 Manufacturing Units</h3>
+                    <p>Operating across 4 production facilities with 11 dedicated R&D centers nationwide</p>
+                </div>
+
+                <div class="overview-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="card-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Partnerships</h3>
+                    <p>Collaborations with Boeing, Airbus, Safran, Honeywell, and leading aerospace manufacturers</p>
+                </div>
+
+                <div class="overview-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="card-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Innovation Hub</h3>
+                    <p>First company to receive complete rocket technology transfer from ISRO for SSLV production</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Showcase -->
+    <section class="featured-products">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our Arsenal</span>
+                <h2 class="section-title">Flagship Products</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="products-showcase">
+                <div class="product-feature" data-aos="fade-right">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1583267746897-519f6f5c123c?w=800&q=80" alt="HAL Tejas Fighter Aircraft" class="product-img">
+                        <div class="product-badge">Fighter Aircraft</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>HAL Tejas</h3>
+                        <p>4.5 generation light combat aircraft designed and manufactured indigenously. The pride of India's aerospace industry.</p>
+                        <ul class="product-specs">
+                            <li><i class="fas fa-check"></i> Multi-role combat capability</li>
+                            <li><i class="fas fa-check"></i> Advanced avionics suite</li>
+                            <li><i class="fas fa-check"></i> BVR missile capability</li>
+                        </ul>
+                        <a href="products.html" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-feature reverse" data-aos="fade-left">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1583521214690-73421a1829a9?w=800&q=80" alt="HAL Prachand Helicopter" class="product-img">
+                        <div class="product-badge">Attack Helicopter</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>HAL Prachand</h3>
+                        <p>Indigenous light combat helicopter designed for high-altitude operations with superior maneuverability.</p>
+                        <ul class="product-specs">
+                            <li><i class="fas fa-check"></i> All-weather capability</li>
+                            <li><i class="fas fa-check"></i> Air-to-air & air-to-ground</li>
+                            <li><i class="fas fa-check"></i> High altitude performance</li>
+                        </ul>
+                        <a href="products.html" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+
+                <div class="product-feature" data-aos="fade-right">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1520697830682-aaf89d74f9a6?w=800&q=80" alt="HAL Dhruv Helicopter" class="product-img">
+                        <div class="product-badge">Utility Helicopter</div>
+                    </div>
+                    <div class="product-details">
+                        <h3>HAL Dhruv</h3>
+                        <p>Advanced light helicopter serving military and civilian roles across multiple countries.</p>
+                        <ul class="product-specs">
+                            <li><i class="fas fa-check"></i> Multi-role versatility</li>
+                            <li><i class="fas fa-check"></i> International exports</li>
+                            <li><i class="fas fa-check"></i> Proven reliability</li>
+                        </ul>
+                        <a href="products.html" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Financial Highlights -->
+    <section class="financials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Performance Metrics</span>
+                <h2 class="section-title">Financial Strength</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="financial-grid">
+                <div class="financial-card" data-aos="flip-left" data-aos-delay="100">
+                    <div class="financial-icon">
+                        <i class="fas fa-rupee-sign"></i>
+                    </div>
+                    <div class="financial-value">
+                        <span class="currency">₹</span>
+                        <span class="amount" data-target="33542">0</span>
+                        <span class="unit">Cr</span>
+                    </div>
+                    <div class="financial-label">Total Revenue</div>
+                    <div class="financial-year">FY 2024-25</div>
+                </div>
+
+                <div class="financial-card" data-aos="flip-left" data-aos-delay="200">
+                    <div class="financial-icon">
+                        <i class="fas fa-chart-pie"></i>
+                    </div>
+                    <div class="financial-value">
+                        <span class="currency">₹</span>
+                        <span class="amount" data-target="8364">0</span>
+                        <span class="unit">Cr</span>
+                    </div>
+                    <div class="financial-label">Net Income</div>
+                    <div class="financial-year">FY 2024-25</div>
+                </div>
+
+                <div class="financial-card" data-aos="flip-left" data-aos-delay="300">
+                    <div class="financial-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <div class="financial-value">
+                        <span class="currency">₹</span>
+                        <span class="amount" data-target="106266">0</span>
+                        <span class="unit">Cr</span>
+                    </div>
+                    <div class="financial-label">Total Assets</div>
+                    <div class="financial-year">FY 2024-25</div>
+                </div>
+
+                <div class="financial-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="financial-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <div class="financial-value">
+                        <span class="currency">₹</span>
+                        <span class="amount" data-target="34985">0</span>
+                        <span class="unit">Cr</span>
+                    </div>
+                    <div class="financial-label">Total Equity</div>
+                    <div class="financial-year">FY 2024-25</div>
+                </div>
+            </div>
+
+            <div class="ownership-info" data-aos="fade-up">
+                <h3>Ownership Structure</h3>
+                <div class="ownership-bar">
+                    <div class="ownership-segment govt" style="width: 71%">
+                        <span>Government of India - 71%</span>
+                    </div>
+                    <div class="ownership-segment public" style="width: 29%">
+                        <span>Public - 29%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Ready to Soar Higher?</h2>
+                <p>Explore career opportunities, partnerships, and innovations at India's premier aerospace company</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                    <a href="about.html" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-plane-departure"></i>
+                        <span>HAL India</span>
+                    </div>
+                    <p class="footer-desc">Pioneering aerospace excellence since 1940. Designing, manufacturing, and innovating defense solutions for India's skies.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="operations.html">Operations</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Press Releases</a></li>
+                        <li><a href="#">Tenders</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Stay updated with our latest news and innovations</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hindustan Aeronautics Limited. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

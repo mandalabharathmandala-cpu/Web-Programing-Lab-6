@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | HAL India</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Dark Mode Toggle -->
+    <div class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <i class="fas fa-plane-departure"></i>
+                <span class="logo-text">HAL</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="products.html" class="nav-link active">Products</a></li>
+                <li><a href="operations.html" class="nav-link">Operations</a></li>
+                <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content" data-aos="fade-up">
+                <span class="breadcrumb">Home / Products</span>
+                <h1>Our Products</h1>
+                <p>Cutting-edge aerospace solutions for defense and civilian applications</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="product-categories">
+        <div class="container">
+            <div class="category-tabs">
+                <button class="category-tab active" data-category="all">All Products</button>
+                <button class="category-tab" data-category="fighter">Fighter Aircraft</button>
+                <button class="category-tab" data-category="trainer">Trainers</button>
+                <button class="category-tab" data-category="helicopter">Helicopters</button>
+                <button class="category-tab" data-category="transport">Transport</button>
+                <button class="category-tab" data-category="uav">UAV/Drones</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-grid-section">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Fighter Aircraft -->
+                <div class="product-card fighter" data-aos="zoom-in">
+                    <div class="product-card-image">
+                        <img src="https://alphadefense.in/wp-content/uploads/2026/02/image-5.png" alt="HAL Tejas" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-fighter">Fighter</div>
+                        <h3>HAL Tejas</h3>
+                        <p>4.5 generation light combat aircraft with multi-role capability</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-check-circle"></i> In Service</span>
+                            <span><i class="fas fa-layer-group"></i> Mk 1, Mk 1A, Mk 2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fighter" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="product-card-image">
+                        <img src="https://defence.in/attachments/hf-24-marut-webp.1336/" alt="HF-24 Marut" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-fighter">Fighter</div>
+                        <h3>HF-24 Marut</h3>
+                        <p>India's first indigenous fighter-bomber aircraft</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-history"></i> Retired</span>
+                            <span><i class="fas fa-trophy"></i> Historic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fighter" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="product-card-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTR0KT_bJiMVNaLofA6mHtBkaRhaGw1qAqd0Q&s" alt="HAL TEDBF" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-development">Development</div>
+                        <h3>HAL TEDBF</h3>
+                        <p>Twin Engine Deck Based Fighter for aircraft carriers</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-cog"></i> Under Development</span>
+                            <span><i class="fas fa-ship"></i> Naval</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card fighter" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="product-card-image">
+                        <img src="https://www.iasgyan.in//ig-uploads/images//ADVANCED_MEDIUM_COMBAT_AIRCRAFT_(AMCA).png" alt="AMCA" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-development">Development</div>
+                        <h3>AMCA Mk 1</h3>
+                        <p>5th generation stealth fighter aircraft</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-cog"></i> Under Development</span>
+                            <span><i class="fas fa-user-secret"></i> Stealth</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Trainer Aircraft -->
+                    <div class="product-card-image">
+                        <img src="https://cdn.jetphotos.com/full/6/86432_1649984085.jpg" alt="HJT-16 Kiran" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-trainer">Trainer</div>
+                        <h3>HJT-16 Kiran</h3>
+                        <p>Turbojet trainer aircraft - Mk1, Mk1A, Mk2</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-check-circle"></i> In Service</span>
+                            <span><i class="fas fa-graduation-cap"></i> Training</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card trainer" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="product-card-image">
+                        <img src="https://ommcomnews.com/wp-content/uploads/2025/10/aircraft.jpg" alt="Transport Aircraft" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-trainer">Trainer</div>
+                        <h3>HTT-40</h3>
+                        <p>Basic turboprop trainer aircraft</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-industry"></i> In Production</span>
+                            <span><i class="fas fa-graduation-cap"></i> Basic Training</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card trainer" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="product-card-image">
+                        <div class="product-card-placeholder">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-development">Development</div>
+                        <h3>HJT-36 Yashas</h3>
+                        <p>Intermediate jet trainer aircraft</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-cog"></i> Under Development</span>
+                            <span><i class="fas fa-graduation-cap"></i> IJT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Helicopters -->
+                <div class="product-card helicopter" data-aos="zoom-in">
+                    <div class="product-card-image">
+                        <img src="https://aerospaceglobalnews.com/wp-content/uploads/2025/12/HAL-DHRUV-NG-helicopter-first-flight-scaled.jpeg" alt="HAL Helicopter" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-helicopter">Helicopter</div>
+                        <h3>HAL Dhruv</h3>
+                        <p>Advanced light helicopter for multi-role operations</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-industry"></i> In Production</span>
+                            <span><i class="fas fa-globe"></i> Exported</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card helicopter" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="product-card-image">
+                        <img src="https://i0.wp.com/static.theprint.in/wp-content/uploads/2022/10/PRACHAND.jpg?resize=900%2C500&ssl=1" alt="HAL Helicopter" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-helicopter">Attack</div>
+                        <h3>HAL Prachand</h3>
+                        <p>Light combat helicopter for high-altitude operations</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-industry"></i> In Production</span>
+                            <span><i class="fas fa-crosshairs"></i> Combat</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card helicopter" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="product-card-image">
+                        <img src="https://forum-en-cdn.warthunder.com/original/3X/8/7/871b7fc9c91278641dd22290fb7d87b4a09132db.jpeg" alt="HAL Helicopter" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-helicopter">Helicopter</div>
+                        <h3>HAL Rudra</h3>
+                        <p>Armed and reconnaissance version of Dhruv</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-industry"></i> In Production</span>
+                            <span><i class="fas fa-crosshairs"></i> Armed</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card helicopter" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="product-card-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRokFSuzb18SH3VjGhgZPX2nRH-02x2gcqSw&s" alt="HAL Helicopter" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-helicopter">Utility</div>
+                        <h3>Light Utility Helicopter</h3>
+                        <p>Lightweight utility helicopter for diverse operations</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-industry"></i> Limited Production</span>
+                            <span><i class="fas fa-tools"></i> Utility</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card helicopter" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="product-card-image">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTduy8k9TdYvyyP9ZWdAcqFGvaBFJOCwbRVYQ&s" alt="HAL Helicopter" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-development">Development</div>
+                        <h3>Indian Multi Role Helicopter</h3>
+                        <p>Medium multi-role helicopter including naval version</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-cog"></i> Under Development</span>
+                            <span><i class="fas fa-ship"></i> Multi-Role</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card helicopter" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="product-card-image">
+                        <img src="https://images.indianexpress.com/2023/11/One-squadron-of-Light-Combat-Helicopters-has-been-inducted-and-more-will-be-procured.jpg" alt="HAL Helicopter" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-helicopter">Legacy</div>
+                        <h3>HAL Chetak & Cheetah</h3>
+                        <p>Light utility helicopters serving for decades</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-check-circle"></i> In Service</span>
+                            <span><i class="fas fa-trophy"></i> Proven</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Transport Aircraft -->
+                <div class="product-card transport" data-aos="zoom-in">
+                    <div class="product-card-image">
+                        <img src="https://i.ndtvimg.com/i/2018-01/saras_650x400_81516808599.jpg" alt="Transport Aircraft" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-transport">Transport</div>
+                        <h3>HAL Saras</h3>
+                        <p>14-19 seater multi-purpose civilian light transport</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-cog"></i> Development</span>
+                            <span><i class="fas fa-users"></i> Civilian</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card transport" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="product-card-image">
+                        <div class="product-card-placeholder">
+                            <i class="fas fa-plane-departure"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-development">Planned</div>
+                        <h3>Indian Regional Jet</h3>
+                        <p>70-100 seater regional airliner with NAL</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-cog"></i> Under Development</span>
+                            <span><i class="fas fa-users"></i> Regional</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UAV/Drones -->
+                <div class="product-card uav" data-aos="zoom-in">
+                    <div class="product-card-image">
+                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglcsJsREZ6gS-3za4y12haQBTR1d1hCiuVJzTZ0AKkJx3UqpKSXQ2ncdAp_p8BVMsFY3ueJW3By8WWy8Q_6m8_NjaHhxdBomPtBE4goVcC0InPHkdV8b3TmJjqdZYYcb2b2bUozAIw0hNQ/s1600/Lakshya.jpg" alt="UAV" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-uav">UAV</div>
+                        <h3>PTA Lakshya</h3>
+                        <p>Pilotless target aircraft for aerial target practice</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-check-circle"></i> In Service</span>
+                            <span><i class="fas fa-bullseye"></i> Target Drone</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card uav" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="product-card-image">
+                        <img src="https://www.airforce-technology.com/wp-content/uploads/static-progressive/nri/airforce/projects/Rustom-II/airforce-rustom-II.jpg" alt="UAV" class="product-card-img">
+                        <div class="product-overlay">
+                            <button class="btn-view-details">View Details</button>
+                        </div>
+                    </div>
+                    <div class="product-card-content">
+                        <div class="product-badge badge-uav">UAV</div>
+                        <h3>Rustom Series</h3>
+                        <p>Family of unmanned aerial vehicles for reconnaissance</p>
+                        <div class="product-meta">
+                            <span><i class="fas fa-cog"></i> Development</span>
+                            <span><i class="fas fa-eye"></i> Surveillance</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Licensed Production -->
+    <section class="licensed-products">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">International Collaboration</span>
+                <h2 class="section-title">Licensed Production</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="licensed-grid">
+                <div class="licensed-card" data-aos="fade-up">
+                    <h3>Sukhoi Su-30MKI</h3>
+                    <p>221 units being manufactured at HAL facilities in Nasik, Koraput, and Bengaluru</p>
+                    <span class="licensed-badge">Russia</span>
+                </div>
+
+                <div class="licensed-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>BAE Hawk 132</h3>
+                    <p>Licensed production of 82 advanced jet trainers for Indian Air Force</p>
+                    <span class="licensed-badge">UK</span>
+                </div>
+
+                <div class="licensed-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>SEPECAT Jaguar</h3>
+                    <p>Ground attack aircraft with ongoing fleet upgrades worth US$57 million</p>
+                    <span class="licensed-badge">UK/France</span>
+                </div>
+
+                <div class="licensed-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3>Dornier 228</h3>
+                    <p>Light utility aircraft manufactured under license for domestic and export markets</p>
+                    <span class="licensed-badge">Germany</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <i class="fas fa-plane-departure"></i>
+                        <span>HAL India</span>
+                    </div>
+                    <p class="footer-desc">Pioneering aerospace excellence since 1940. Designing, manufacturing, and innovating defense solutions for India's skies.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="operations.html">Operations</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#">Press Releases</a></li>
+                        <li><a href="#">Tenders</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Newsletter</h4>
+                    <p>Stay updated with our latest news and innovations</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Hindustan Aeronautics Limited. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
