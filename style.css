@@ -4,12 +4,12 @@
 
 /* CSS Variables for Theming */
 :root {
-    /* Color Palette - Navy Blue, Steel Grey, White, Accent Orange */
-    --primary-color: #0a2463;
-    --secondary-color: #3e92cc;
-    --accent-color: #ff6b35;
-    --accent-hover: #e55a2b;
-    --text-dark: #1a1a2e;
+    /* Color Palette - Bold Red, White, Dark Accents */
+    --primary-color: #c41c3b;
+    --secondary-color: #e63946;
+    --accent-color: #333333;
+    --accent-hover: #555555;
+    --text-dark: #1a1a1a;
     --text-light: #f8f9fa;
     --bg-light: #ffffff;
     --bg-dark: #0f0f1e;
@@ -194,14 +194,14 @@ img {
     left: 0;
     right: 0;
     z-index: 999;
-    background: rgba(10, 36, 99, 0.95);
+    background: rgba(196, 28, 59, 0.95);
     backdrop-filter: blur(10px);
     box-shadow: var(--shadow-md);
     transition: var(--transition);
 }
 
 .navbar.scrolled {
-    background: rgba(10, 36, 99, 1);
+    background: rgba(196, 28, 59, 1);
     box-shadow: var(--shadow-lg);
 }
 
@@ -309,7 +309,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #0a2463 0%, #3e92cc 50%, #0a2463 100%);
+    background: linear-gradient(135deg, #c41c3b 0%, #e63946 50%, #c41c3b 100%);
     z-index: -1;
 }
 
@@ -319,7 +319,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(10, 36, 99, 0.7);
+    background: rgba(196, 28, 59, 0.7);
 }
 
 .hero-pattern {
@@ -329,8 +329,8 @@ img {
     width: 100%;
     height: 100%;
     background-image: 
-        radial-gradient(circle at 20% 50%, rgba(255, 107, 53, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(62, 146, 204, 0.1) 0%, transparent 50%);
+        radial-gradient(circle at 20% 50%, rgba(230, 57, 70, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(196, 28, 59, 0.1) 0%, transparent 50%);
     animation: patternFloat 20s ease-in-out infinite;
 }
 
@@ -360,8 +360,8 @@ img {
 .hero-badge {
     display: inline-block;
     padding: 0.5rem 1.5rem;
-    background: rgba(255, 107, 53, 0.2);
-    border: 1px solid var(--accent-color);
+    background: rgba(230, 57, 70, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 50px;
     color: white;
     font-family: var(--font-heading);
@@ -381,7 +381,7 @@ img {
 }
 
 .gradient-text {
-    background: linear-gradient(135deg, #ff6b35, #ffa500);
+    background: linear-gradient(135deg, #c41c3b, #e63946);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1401,7 +1401,7 @@ img[src*="unsplash"] {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(10, 36, 99, 0.9);
+    background: rgba(196, 28, 59, 0.9);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1973,7 +1973,7 @@ img[src*="unsplash"] {
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to top, rgba(10, 36, 99, 0.95), transparent);
+    background: linear-gradient(to top, rgba(196, 28, 59, 0.95), transparent);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -2451,7 +2451,7 @@ img[src*="unsplash"] {
         left: -100%;
         width: 100%;
         height: calc(100vh - 80px);
-        background: rgba(10, 36, 99, 0.98);
+        background: rgba(196, 28, 59, 0.98);
         flex-direction: column;
         align-items: center;
         justify-content: center;
