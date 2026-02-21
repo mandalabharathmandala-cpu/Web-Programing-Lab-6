@@ -4,9 +4,9 @@
 
 /* CSS Variables for Theming */
 :root {
-    /* Color Palette - Bold Red, White, Dark Accents */
-    --primary-color: #c41c3b;
-    --secondary-color: #e63946;
+    /* Color Palette - Blue, Teal/Cyan, Dark Accents */
+    --primary-color: #0066cc;
+    --secondary-color: #00bcd4;
     --accent-color: #333333;
     --accent-hover: #555555;
     --text-dark: #1a1a1a;
